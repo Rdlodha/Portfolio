@@ -2,12 +2,19 @@ import { useEffect, useState, useRef } from 'react';
 import { motion, useMotionValue, useTransform } from 'motion/react';
 // replace icons with your own if needed
 import { FiCircle, FiCode, FiFileText, FiLayers, FiLayout } from 'react-icons/fi';
+import prj1 from '../../src/assets/prj1.png'
+import prj2 from '../../src/assets/prj2.png'
+import prj3 from '../../src/assets/prj3.png'
+import prj4 from '../../src/assets/prj4.png'
+
 
 import './Carousel.css';
 import '../../src/component/Projects.css';
-const DEFAULT_ITEMS = [
+const DEFAULT_ITEMS =
+
+[
   {
-    img:'/public/Screenshot (62).png',
+    img:prj1,
     id:1,
     // title: "Text Animations",
     // description: "Cool text animations for your projects.",
@@ -15,19 +22,42 @@ const DEFAULT_ITEMS = [
     // icon: <FiFileText className="carousel-icon" />,
   },
   {
-    img:'/public/Screenshot (63).png',
+    img:prj2,
     id:2,
   },
   {
-    img:'/public/Screenshot (64).png',
+    img:prj3,
     id:3,
   },
   {
-    img:'/public/Screenshot (65).png',
+    img:prj4,
     id:4,
   },
   
 ];
+// [
+//   {
+//     img:'/public/Screenshot (62).png',
+//     id:1,
+//     // title: "Text Animations",
+//     // description: "Cool text animations for your projects.",
+//     // id: 1,
+//     // icon: <FiFileText className="carousel-icon" />,
+//   },
+//   {
+//     img:'/public/Screenshot (63).png',
+//     id:2,
+//   },
+//   {
+//     img:'/public/Screenshot (64).png',
+//     id:3,
+//   },
+//   {
+//     img:'/public/Screenshot (65).png',
+//     id:4,
+//   },
+  
+// ];
 
 const DRAG_BUFFER = 0;
 const VELOCITY_THRESHOLD = 500;

@@ -122,6 +122,7 @@ const ClickSpark = ({
   ]);
 
   const handleClick = (e) => {
+    console.log(children)
     const canvas = canvasRef.current;
     if (!canvas) return;
     const rect = canvas.getBoundingClientRect();
@@ -142,9 +143,14 @@ const ClickSpark = ({
   return (
     <div
       style={{
-        position: "relative",
-        width: "100%",
-        height: "100%",
+        position:"relative",
+        width:"100%",
+        height:"100%",zIndex:1,
+        // position: "relative",
+        // top:0,
+        // bottom:0,
+        // width: "100%",
+        // height: "100%",
       }}
       onClick={handleClick}
     >

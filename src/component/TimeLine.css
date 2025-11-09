@@ -1,0 +1,36 @@
+.timeline{
+    min-height:-webkit-fill-available;
+    width: 30%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.vl{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: -webkit-fill-available;
+    width: 0%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    border-radius: 100%;
+    border: 6px solid ;
+    display: flex;
+    /* justify-content:flex-end; */
+    align-items: center;
+    
+    position: relative;
+}
+.direction{
+    position: absolute;
+    width: 221px;
+    border: 1px solid ;
+
+}

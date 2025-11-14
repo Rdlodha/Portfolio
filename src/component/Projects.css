@@ -7,10 +7,12 @@
     pointer-events: none;
 }
 .project{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    color: white;
 }
 .prj-slider{
     display: flex;
@@ -20,6 +22,8 @@
 
 .prj-info{
     width: 100%;
+    padding:0px 50px;
+    justify-content: center;
 }
 
 

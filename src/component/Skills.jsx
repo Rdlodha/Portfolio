@@ -12,11 +12,11 @@ export default function Skills() {
     return (
         <>
 
-            <div className="flex justify-around my-20" id="skill">
-            <SkillCard technologie={technologies.frontend} name={"Frontend"}></SkillCard>
-            <SkillCard technologie={technologies.backend} name={"Backend"}></SkillCard>
-            <SkillCard technologie={technologies.core} name={"Core"}></SkillCard>
-            <SkillCard technologie={technologies.database} name={"Database"}></SkillCard>
+            <div className="flex justify-around my-20 " id="skill">
+            <SkillCard technologie={technologies.frontend} name={"FRONTEND"}></SkillCard>
+            <SkillCard technologie={technologies.backend} name={"BACKEND"}></SkillCard>
+            <SkillCard technologie={technologies.core} name={"CORE"}></SkillCard>
+            <SkillCard technologie={technologies.database} name={"DATABASE"}></SkillCard>
 
             </div>
            

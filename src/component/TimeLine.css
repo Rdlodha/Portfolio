@@ -1,11 +1,13 @@
 .timeline{
-    min-height:-webkit-fill-available;
+    height: 100%;
     width: 30%;
-    display: block;
+    position:absolute;
     display: flex;
     justify-content: center;
     margin: 0;
     padding: 0;
+    z-index: 10;
+    overflow: hidden;
 }
 
 .vl{
@@ -14,14 +16,14 @@
     padding: 0;
     height: -webkit-fill-available;
     width: 0%;
-    border: 2px solid;
+    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .dot{
     border-radius: 100%;
-    border: 6px solid ;
+    border: 6px solid cyan;
     display: flex;
     /* justify-content:flex-end; */
     align-items: center;
@@ -31,6 +33,6 @@
 .direction{
     position: absolute;
     width: 221px;
-    border: 1px solid ;
+    border: 1px solid wheat ;
 
 }

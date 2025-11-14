@@ -6,18 +6,22 @@
   height: 100%;
 } */
 
-:root {
+/* :root {
 --background-color: #ffffff !important;
 --text-color: #000000 !important;
-}
+} */
 
 html {
   scroll-behavior: smooth;
 }
+:root {
+   --background-color: #000000;
+   --text-color: #131212;
+}
 
 
-body{
-  background: #ffffff;
-  color: #141514;
+body {
+   background-color: var(--background-color);
+   color: var(--text-color);
 }
 

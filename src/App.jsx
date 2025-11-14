@@ -23,13 +23,14 @@ function App() {
   sparkRadius={15}
   sparkCount={8}
   duration={400}
+  
 >
 
-<div style={{ width: '100%', height: '100vh ', 
-  position: 'relative' ,zIndex:'99'
+<div id='introwel-container' style={{ width: '100%', height: '100vh ', 
+  position: 'relative' ,zIndex:99
    }} >
     
-     <IntroWelcome></IntroWelcome>
+     <IntroWelcome name="introweb"></IntroWelcome>
   {/* <Particles
     particleColors={['#ffffff6', '#00ffff']}
     particleCount={400}

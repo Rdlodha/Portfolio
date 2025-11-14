@@ -3,7 +3,7 @@ import './TimeLine.css'
 export default function TimeLine({direction}=props){
     console.log("from time line :",direction)
     return<>
-    <div className='timeline h-full my-1'>
+    <div className='timeline h-full my-1 '>
         <div className="vl ">
             <div className="dot" 
             // style={{justifyContent:direction==='right'?'flex-end':flex-start}}

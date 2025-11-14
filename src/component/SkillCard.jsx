@@ -1,8 +1,13 @@
 import React from "react";
+import './SkillCard.css';
+import { motion, scale } from 'framer-motion';
 export default function SkillCard({technologie,name}=props){
     console.log(technologie)
     return (
-        <div class="w-1/5 h-[300px] border-2 flex flex-col rounded-2xl  bg-gray-300 shadow-2xl transition-all delay-5 duration-300 ease-in hover:shadow-blue-500 hover:scale-105 group" >
+        <div 
+        
+
+        className="w-1/5 h-[300px] border-2 flex flex-col rounded-2xl  bg-gray-300 shadow-2xl transition-all delay-5 duration-300 ease-in hover:shadow-blue-500 hover:scale-105 group animation-name" >
                 <header class="w-full flex-1 flex justify-center h-1/6 text-3xl group-hover:text-blue-400 ">
                 {name}
 

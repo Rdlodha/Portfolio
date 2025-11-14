@@ -8,34 +8,35 @@ export default function IntroWelcom() {
 
     return (
 
-        <div class="absolute w-full h-lvh flex  justify-around items-center z-20" id="home">
+        <div class="absolute w-full h-lvh flex flex-col-reverse items-center justify-around lg:flex-row text-amber-50 " id="home">
             <Particles
-    particleColors={['white', 'blue']}
-    particleCount={1} //200
-    particleSpread={0 }  //9
+    particleColors={['#ffffff', '#ffffff']}
+    particleCount={200} //200
+    particleSpread={9 }  //9
     speed={1.5}
     particleBaseSize={100}
     moveParticlesOnHover={true}
     alphaParticles={true}
     disableRotation={true}
     
+    
     />
 
-    <section name="intro-text" class="inline-block z-0">
+    <section name="intro-text" class="inline-flex z-0 px-4">
                 <div class="w-full">
                     <h3 class="text-5xl">
                         Hello,
                     </h3>
 
                     <h1 class="text-6xl">
-                        My Name Is Lodha Rishi
+                        MY NAME IS RISHI
                     </h1>
                 </div>
             </section>
 
 
             
-    <section name="profile-card" class="inline-block z-100">
+    <section name="profile-card" class="inline-flex top-10 z-100">
                 
                 <ProfileCard
   name="R.D LODHA"
@@ -48,21 +49,10 @@ export default function IntroWelcom() {
   enableTilt={true}
   enableMobileTilt={true}
   onContactClick={() => console.log('Contact clicked')}
+  
 />
 
             </section>
-
-
-            
-
-
-
-
-
-
-
-
-
         </div>
     )
 }

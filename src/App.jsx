@@ -26,22 +26,11 @@ function App() {
   
 >
 
-<div id='introwel-container' style={{ width: '100%', height: '100vh ', 
-  position: 'relative' ,zIndex:99
-   }} >
+<div id='introwel-container' style={{ width: '100%', height:'100vh',
+  position: 'relative' ,zIndex:99   
+   }} className='overflow-clip mb-7 border-8 ' >
     
      <IntroWelcome name="introweb"></IntroWelcome>
-  {/* <Particles
-    particleColors={['#ffffff6', '#00ffff']}
-    particleCount={400}
-    particleSpread={10}
-    speed={1.5}
-    particleBaseSize={100}
-    moveParticlesOnHover={true}
-    alphaParticles={true}
-    disableRotation={true}
-    
-    /> */}
   
 
 </div>

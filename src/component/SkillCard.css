@@ -1,20 +1,14 @@
 .animation-name{
     animation: floating-anm 1s ease-in-out both;
-    animation-timeline: view(99% 0%);
+    animation-timeline: view(80% 0%);
     
 }
 @keyframes floating-anm {
-    0%{
-        translate-y:20px;
-        scale: 0.7;
-        opacity: 0.7;
-       
+    0%{   
+        opacity: 0;  
     }
     100%{
-        translate-y:0px;
-        opacity: 1;
-        scale: 1;
-        
+        opacity: 1;    
     }
     
 }

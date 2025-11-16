@@ -245,7 +245,7 @@ const Particles = ({
   ]);
 
   return (
-    <div ref={containerRef} className={`particles-container ${className} z-20`} />
+    <div ref={containerRef} className={`particles-container ${className} z-20 border-b-blue-700 border-2`} />
   );
 };
 

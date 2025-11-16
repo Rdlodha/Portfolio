@@ -8,27 +8,25 @@ export default function IntroWelcom() {
 
     return (
 
-        <div class="absolute w-full h-lvh flex flex-col-reverse items-center justify-around lg:flex-row text-amber-50 " id="home">
+        <div className="absolute w-full h-lvh flex flex-col-reverse items-center  sm:justify-around lg:flex-row text-amber-50 mb-4 " id="home">
             <Particles
     particleColors={['#ffffff', '#ffffff']}
-    particleCount={200} //200
-    particleSpread={9 }  //9
+    particleCount={50}
+    particleSpread={9}
     speed={1.5}
     particleBaseSize={100}
     moveParticlesOnHover={true}
     alphaParticles={true}
     disableRotation={true}
-    
-    
     />
 
-    <section name="intro-text" class="inline-flex w-full z-0 px-4">
-                <div class="w-full">
-                    <h3 class="text-5xl">
+    <section name="intro-text" className="inline-flex z-0 px-4 w-fit border-purple-500 border-2">
+                <div className="w-full">
+                    <h3 className="text-5xl">
                         Hello,
                     </h3>
 
-                    <h1 class="text-6xl">
+                    <h1 className="text-6xl">
                         MY NAME IS RISHI
                     </h1>
                 </div>
@@ -36,7 +34,7 @@ export default function IntroWelcom() {
 
 
             
-    <section name="profile-card" class="inline-flex w-full justify-center top-10 z-100">
+    <section name="profile-card" className="inline-flex z-100 border-2 bg-green-400">
                 
                 <ProfileCard
   name="R.D LODHA"

@@ -21,8 +21,10 @@
 }
 
 .prj-info{
+    
+    box-sizing: border-box;
     width: 100%;
-    padding:0px 50px;
+    padding:0px 100px;
     justify-content: center;
 }
 

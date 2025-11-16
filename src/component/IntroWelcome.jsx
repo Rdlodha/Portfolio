@@ -22,7 +22,7 @@ export default function IntroWelcom() {
     
     />
 
-    <section name="intro-text" class="inline-flex z-0 px-4">
+    <section name="intro-text" class="inline-flex w-full z-0 px-4">
                 <div class="w-full">
                     <h3 class="text-5xl">
                         Hello,
@@ -36,7 +36,7 @@ export default function IntroWelcom() {
 
 
             
-    <section name="profile-card" class="inline-flex top-10 z-100">
+    <section name="profile-card" class="inline-flex w-full justify-center top-10 z-100">
                 
                 <ProfileCard
   name="R.D LODHA"

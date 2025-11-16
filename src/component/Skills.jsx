@@ -12,7 +12,7 @@ export default function Skills() {
     return (
         <>
 
-            <div className="flex justify-around my-20 " id="skill">
+            <div className="flex justify-around" id="skill">
             <SkillCard technologie={technologies.frontend} name={"FRONTEND"}></SkillCard>
             <SkillCard technologie={technologies.backend} name={"BACKEND"}></SkillCard>
             <SkillCard technologie={technologies.core} name={"CORE"}></SkillCard>

@@ -26,9 +26,7 @@ function App() {
   
 >
 
-<div id='introwel-container' style={{ width: '100%', height:'100vh',
-  position: 'relative' ,zIndex:99   
-   }} className='overflow-clip mb-7 border-8 ' >
+<div id='introwel-container'  className='w-full border-2 border-b-fuchsia-600 h-dvh relative z-99' >
     
      <IntroWelcome name="introweb"></IntroWelcome>
   

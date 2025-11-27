@@ -7,7 +7,7 @@ export default function Skills() {
         frontend: ["HTML5", "CSS3", "JAVASCRIPT", "ES6", "BOOTSTRAP", "REACT"],
         backend: ["NODE.JS", "EXPRESS.JS"],
         database: ["MONGODB", "MONGOOSE", "MYSQL"],
-        core: ["COMPUTER_NETWORK"]
+        core: ["COMPUTER NETWORK"]
     };
     return (
         <>

@@ -18,7 +18,7 @@ function App() {
     <>
     
 <ClickSpark
-  sparkColor='#f9ff'
+  sparkColor='white'
   sparkSize={10}
   sparkRadius={15}
   sparkCount={8}

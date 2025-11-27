@@ -12,3 +12,21 @@
     }
     
 }
+
+/* Skill card gradient and responsive tweaks */
+.skill-card {
+    background: conic-gradient(at top, black, #a855f7, #a855f7, black);
+}
+
+/* Reduce inner item shadow on very small screens */
+@media (max-width: 420px) {
+    .skill-card .shadow-sm {
+        box-shadow: none !important;
+    }
+}
+
+/* Make sure long skill names wrap properly */
+.skill-card .text-sm, .skill-card .text-base {
+    white-space: normal;
+    word-break: break-word;
+}

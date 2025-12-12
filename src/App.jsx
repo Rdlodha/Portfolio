@@ -26,7 +26,7 @@ function App() {
   
 >
 
-<div id='introwel-container'  className='w-full border-2 border-b-fuchsia-600 h-dvh relative z-99' >
+<div id='introwel-container'  className='w-full h-dvh relative z-99' >
     
      <IntroWelcome name="introweb"></IntroWelcome>
   
@@ -35,8 +35,12 @@ function App() {
 
 <Skills></Skills>
 <div className='project-container' id='project'>
+  <header className="text-amber-100 text-center text-5xl my-20" id="project-header" >PROJECTS</header>
+  
 <Project direction={1}></Project>
 <Project direction={2}></Project>
+
+
 
 </div>
 <Contactme></Contactme>
@@ -46,4 +50,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

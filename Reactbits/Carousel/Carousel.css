@@ -3,6 +3,9 @@
 */
 
 .carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   overflow: hidden;
   border: 0px solid #555;
@@ -10,10 +13,14 @@
   padding: 0px;
   --outer-r: 24px;
   --p-distance: 12px;
+  
+  
 }
 
 .carousel-track {
   display: flex;
+ 
+
 }
 
 .carousel-item {
@@ -23,15 +30,17 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  border: 1px solid #555;
+  border: 1px solid #dfd8d8;
   border-radius: calc(var(--outer-r) - var(--p-distance));
   background-color: #0d0716;
   overflow: hidden;
   cursor: grab;
+  
 }
 
 .carousel-item:active {
   cursor: grabbing;
+  
 }
 
 .carousel-container.round {
@@ -94,6 +103,7 @@
 .carousel-item-content {
   padding: 20px;
   padding-bottom: 20px;
+  
 }
 
 .carousel-item-title {
@@ -101,6 +111,7 @@
   font-weight: 900;
   font-size: 18px;
   color: #fff;
+  
 }
 
 .carousel-item-description {

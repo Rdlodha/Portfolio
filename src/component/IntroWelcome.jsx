@@ -8,10 +8,10 @@ export default function IntroWelcom() {
 
     return (
 
-        <div className="absolute w-full  h-full flex flex-col-reverse items-center justify-center md:justify-around lg:flex-row text-amber-50 mt-0 md:border-8 md:border-purple-600 box-border " id="home">
+        <div className="absolute w-full  h-full flex flex-col-reverse items-center justify-center md:justify-around lg:flex-row text-amber-50 mt-0 md:border-8 md:border-[#C47BE4] box-border " id="home">
             <Particles
     particleColors={['#ffffff', '#ffffff']}
-    particleCount={50} //200 particles
+    particleCount={200} //200 particles
     particleSpread={9}
     speed={1.5}
     particleBaseSize={100}

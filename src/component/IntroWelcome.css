@@ -1,0 +1,57 @@
+/* Ben 10 theme variables and styles for IntroWelcome component */
+.ben-theme {
+	--ben-green: #00C853; /* primary bright green */
+	--ben-green-dark: #007a33; /* darker green */
+	--ben-dark: #070707; /* near black */
+	--ben-grey: #e6e7e8; /* light grey / white replacement */
+}
+
+/* Container background: subtle dark with a faint green glow */
+.ben-theme {
+	background: radial-gradient(ellipse at top left, rgba(0,200,83,0.06), rgba(0,0,0,0.95));
+	color: var(--ben-grey);
+}
+
+.intro-panel {
+	background: rgba(3,3,3,0.55);
+	border: 2px solid rgba(0,200,83,0.12);
+	padding: 1rem;
+	border-radius: 0.75rem;
+	backdrop-filter: blur(6px);
+}
+
+.accent-text {
+	color: var(--ben-green);
+	font-weight: 600;
+}
+
+.hero-name {
+	color: var(--ben-grey);
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-shadow: 0 2px 6px rgba(0,200,83,0.08);
+}
+
+.profile-wrapper {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	border-radius: 0.75rem;
+	background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.6));
+	border: 3px solid rgba(0,200,83,0.18);
+	box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 18px rgba(0,200,83,0.06);
+}
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+	.intro-panel {
+		padding: 0.75rem;
+		border-radius: 0.6rem;
+	}
+	.hero-name { font-size: 1.4rem; }
+	.accent-text { font-size: 1.1rem; }
+}
+
+/* Ensure text wraps and remains legible */
+.intro-panel, .profile-wrapper {
+	word-break: break-word;
+}

@@ -163,9 +163,9 @@ export default function Carousel({
   return (
     <div
       ref={containerRef}
-      className={`carousel-container ${round ? 'round' : ''}`}
+      className={`carousel-container  ${round ? 'round' : ''}`}
       style={{
-        width: `${baseWidth}px`,
+        width: `${baseWidth}px `,
         ...(round && { height: `${baseWidth}px`, borderRadius: '50%' })
       }}
     >

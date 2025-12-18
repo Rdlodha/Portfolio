@@ -1,0 +1,10 @@
+.icon-slide-2{
+    width: var(--s);
+    offset: shape(from calc(var(--s)/-2) 50%,hline by calc(sibling-count()*max(100%/var(--n),var(--s))));
+    animation: y var(--d) linear infinite calc((-1*sibling-index()*var(--d)/sibling-count()) + (var(--d)/2));
+}
+@keyframes y { 
+
+  from { offset-distance: 100%; }
+  to { offset-distance: 0%; }
+}

@@ -15,7 +15,7 @@
 
 /* Skill card gradient and responsive tweaks */
 .skill-card { 
-    background: conic-gradient(at top, black, #C47BE4, #C47BE4, black);
+    background: conic-gradient(at top, black, #6f6871, #746d77, black);
 }
 
 /* Reduce inner item shadow on very small screens */

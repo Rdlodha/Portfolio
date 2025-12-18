@@ -9,6 +9,7 @@ import Project from './component/Projects'
 import Skills from './component/Skills'
 import Contactme from './component/Contactme'
 import Nav from './component/Nav'
+import Footer from './component/Footer'
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
 </div>
 <Contactme></Contactme>
 <Nav></Nav>
+<Footer></Footer>
 </ClickSpark>
     </>
   )

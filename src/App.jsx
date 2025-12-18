@@ -9,7 +9,7 @@ import Project from './component/Projects'
 import Skills from './component/Skills'
 import Contactme from './component/Contactme'
 import Nav from './component/Nav'
-import Footer from './component/Footer'
+import Footer from './component/Footer.jsx'
 
 
 function App() {

@@ -2,38 +2,13 @@ import { useEffect, useState, useRef } from 'react';
 import { motion, useMotionValue, useTransform } from 'motion/react';
 // replace icons with your own if needed
 import { FiCircle, FiCode, FiFileText, FiLayers, FiLayout } from 'react-icons/fi';
-import prj1 from '../../src/assets/prj1.png'
-import prj2 from '../../src/assets/prj2.png'
-import prj3 from '../../src/assets/prj3.png'
-import prj4 from '../../src/assets/prj4.png'
+
 
 
 import './Carousel.css';
 import '../../src/component/Projects.css';
 const DEFAULT_ITEMS =
-
 [
-  {
-    img:prj1,
-    id:1,
-    // title: "Text Animations",
-    // description: "Cool text animations for your projects.",
-    // id: 1,
-    // icon: <FiFileText className="carousel-icon" />,
-  },
-  {
-    img:prj2,
-    id:2,
-  },
-  {
-    img:prj3,
-    id:3,
-  },
-  {
-    img:prj4,
-    id:4,
-  },
-  
 ];
 // [
 //   {
@@ -72,7 +47,7 @@ const SPRING_OPTIONS = { type: 'spring', stiffness: 300, damping: 30 };
 
 
 export default function Carousel({
-  items = DEFAULT_ITEMS,
+  items = ( items),
   baseWidth = 300,
   autoplay = false,
   autoplayDelay = 3000,
@@ -206,6 +181,7 @@ export default function Carousel({
               
 
             <div className='project-img'>
+              
                 <img src={item.img} alt={item.id} className='images w-full' id='imgs' />
             </div>
 

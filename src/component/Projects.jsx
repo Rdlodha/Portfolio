@@ -12,7 +12,7 @@ import prj4 from '../assets/prj4.png';
 // console.log(asd)
 
 
-export default function Projects({direction}=props){
+export default function Projects({direction,DEFAULT_ITEMS}=props){
 
 
    const DEFAULT_I =[
@@ -50,7 +50,7 @@ export default function Projects({direction}=props){
 >
         
         <div name="prj-slider" className="flex justify-center md:justify-around w-full md:py-10 min-h-full "><Carousel
-        items = {DEFAULT_I}
+        items = {DEFAULT_ITEMS}
     baseWidth={300}
     autoplay={true}
     autoplayDelay={3000}

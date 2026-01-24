@@ -25,15 +25,20 @@ export default function Contactme() {
        
    <div id="social-media" className="w-1/2 flex mx-auto my-2 justify-around items-center text-white  "  >
 
- <a href="#name" target="_self"><FontAwesomeIcon icon={faEnvelope} className="scale-150 hover:scale-170 "/></a>
-      <a href="tel:+919879110000" target="_blank"><FontAwesomeIcon icon={faPhone} className="scale-150 hover:scale-170" /> </a>
+ <a href="#name" target="_self" className="group "> <span className="invisible text-transparent text-no group-hover:visible absolute group-hover:text-white group-hover:translate-x-[-200px] duration-400 fade-out  ">
+                    rdlodha007@gmail.com
+                </span><FontAwesomeIcon icon={faEnvelope} className="scale-150 hover:scale-170 "/></a>
+      <a href="tel:+919879110000" target="_blank" className="group"><span className="invisible text-transparent text-no group-hover:visible absolute group-hover:text-white group-hover:translate-x-[-150px] duration-400 fade-out  ">
+                    +919879110000
+                </span><FontAwesomeIcon icon={faPhone} className="scale-150 hover:scale-170" /> </a>
 <FontAwesomeIcon icon={faInstagram} className="scale-150 hover:scale-170"/>
-<FontAwesomeIcon icon={faLinkedin} className="scale-150 hover:scale-170"/>
+<a href="http://www.linkedin.com/in/rishi-lodha-aa75412b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=all" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="scale-150 hover:scale-170"/></a>
                 </div>
                 <div className="w-5/6 mx-auto text-gray-500"><hr /></div>
         
        
             <div className="w-full h-[40vh]  mt-2  flex flex-col  md:flex-row text-white" id="contact">
+               
                
                 
  

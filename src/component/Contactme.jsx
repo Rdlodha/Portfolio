@@ -28,8 +28,8 @@ export default function Contactme() {
  <a href="#name" target="_self" className="group "> <span className="invisible text-transparent text-no group-hover:visible absolute group-hover:text-white group-hover:translate-x-[-200px] duration-400 fade-out  ">
                     rdlodha007@gmail.com
                 </span><FontAwesomeIcon icon={faEnvelope} className="scale-150 hover:scale-170 "/></a>
-      <a href="tel:+919879110000" target="_blank" className="group"><span className="invisible text-transparent text-no group-hover:visible absolute group-hover:text-white group-hover:translate-x-[-150px] duration-400 fade-out  ">
-                    +919879110000
+      <a href="tel:+919023697300" target="_blank" className="group"><span className="invisible text-transparent text-no group-hover:visible absolute group-hover:text-white group-hover:translate-x-[-150px] duration-400 fade-out  ">
+                    +919023697300
                 </span><FontAwesomeIcon icon={faPhone} className="scale-150 hover:scale-170" /> </a>
 <FontAwesomeIcon icon={faInstagram} className="scale-150 hover:scale-170"/>
 <a href="http://www.linkedin.com/in/rishi-lodha-aa75412b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=all" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} className="scale-150 hover:scale-170"/></a>

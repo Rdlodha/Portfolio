@@ -7,8 +7,8 @@ import IconSliderR from "./IconSliderR";
 export default function Skills() {
 
     const technologies = {
-        frontend: ["HTML5", "CSS3", "JAVASCRIPT", "ES6", "BOOTSTRAP", "REACT"],
-        backend: ["NODE.JS", "EXPRESS.JS"],
+        frontend: ["HTML5", "CSS3", "JAVASCRIPT", "ES6", "BOOTSTRAP", "REACT","TAILWIND"],
+        backend: ["NODE.JS", "EXPRESS.JS","FIREBASE"],
         database: ["MONGODB", "MONGOOSE", "MYSQL"],
         core: ["COMPUTER NETWORK"]
     };

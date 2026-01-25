@@ -52,7 +52,7 @@ export default function IntroWelcom() {
   handle="RDlodha007"
   status="Online"
   contactText="Contact Me"
-  avatarUrl="./avatar-removebg-preview.png"
+  avatarUrl="./crtnhero.png"
   showUserInfo={true}
   enableTilt={true}
   enableMobileTilt={true}

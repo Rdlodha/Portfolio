@@ -7,32 +7,29 @@ import { FiCircle, FiCode, FiFileText, FiLayers, FiLayout } from 'react-icons/fi
 
 import './Carousel.css';
 import '../../src/component/Projects.css';
-const DEFAULT_ITEMS =
-[
-];
-// [
-//   {
-//     img:'/public/Screenshot (62).png',
-//     id:1,
-//     // title: "Text Animations",
-//     // description: "Cool text animations for your projects.",
-//     // id: 1,
-//     // icon: <FiFileText className="carousel-icon" />,
-//   },
-//   {
-//     img:'/public/Screenshot (63).png',
-//     id:2,
-//   },
-//   {
-//     img:'/public/Screenshot (64).png',
-//     id:3,
-//   },
-//   {
-//     img:'/public/Screenshot (65).png',
-//     id:4,
-//   },
+ const DEFAULT_I =[
+  {
+    img:"./prj1.png",
+    id:1,
+    // title: "Text Animations",
+    // description: "Cool text animations for your projects.",
+    // id: 1,
+    // icon: <FiFileText className="carousel-icon" />,
+  },
+  {
+    img:"./prj2.png",
+    id:2,
+  },
+  {
+    img:"./prj3.png",
+    id:3,
+  },
+  {
+    img:"./prj4.png",
+    id:4,
+  },
   
-// ];
+];
 
 const DRAG_BUFFER = 0;
 const VELOCITY_THRESHOLD = 500;
@@ -47,7 +44,7 @@ const SPRING_OPTIONS = { type: 'spring', stiffness: 300, damping: 30 };
 
 
 export default function Carousel({
-  items = ( items),
+  items = ( items || DEFAULT_I),
   baseWidth = 300,
   autoplay = false,
   autoplayDelay = 3000,
@@ -55,6 +52,7 @@ export default function Carousel({
   loop = false,
   round = false
 }) {
+  console.log(items,"from corousel")
   const containerPadding = 16;
   const itemWidth = baseWidth - containerPadding * 2;
   const trackItemOffset = itemWidth + GAP;

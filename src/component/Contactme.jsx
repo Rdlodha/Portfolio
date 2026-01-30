@@ -47,7 +47,7 @@ export default function Contactme() {
 
                     <div className="w-full h-full flex justify-center items-center  ">
                         
-                        <a href="https://drive.usercontent.google.com/uc?id=1RzJc83VrqLRMocEKrBThL-9iDhzcwsbe&export=download" target="_self" type="file" rel="noopener noreferrer"><i className=" md:text-2xl border p-4 hover:bg-amber-50 hover:text-black transition-all ease-in duration-300   "> download resume</i></a>
+                        <a href="https://drive.usercontent.google.com/u/0/uc?id=1WPS8uOdkHPjWB8PZHYnWJao8pZPQ38Xr&export=download" target="_self" type="file" rel="noopener noreferrer"><i className=" md:text-2xl border p-4 hover:bg-amber-50 hover:text-black transition-all ease-in duration-300   "> download resume</i></a>
                         
 
                     </div>
